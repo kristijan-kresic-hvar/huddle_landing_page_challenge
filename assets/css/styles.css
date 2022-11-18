@@ -3,3 +3,110 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.hero {
+    width: 100%;
+    margin: 0 auto;
+    height: 741px;
+    background-color: #EDFBFF;
+    background-image: url('../../images/bg-hero-desktop.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    width: 100%;
+    padding-top: 77px;
+    margin-bottom: 71px;
+}
+
+.nav__inner {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.nav__cta button {
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.0954201);
+    border-radius: 24px;
+    padding: 13px 63px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #00252E;
+    cursor: pointer;
+    transition: color 200ms ease-in-out;
+}
+
+.nav__cta button:hover {
+    color: #808E9A;
+}
+
+.hero__content {
+    width: 90%;
+    margin: 0 auto;
+    height: calc(100% - 154px);
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.hero__content__information {
+    align-self: center;
+    padding-right: 70px;
+    margin-top: -71px;
+}
+
+.hero__content__information h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    width: 25ch;
+    color: #00252E;
+    margin-bottom: 32px;
+}
+
+.hero__content__information p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #00252E;
+    width: 75ch;
+    margin-bottom: 32px;
+}
+
+.hero__content__information button {
+    border: none;
+    background: #FF52C1;
+    box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.166185);
+    border-radius: 28px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 18px 70px;
+    cursor: pointer;
+    transition: background 200ms ease-in-out;
+}
+
+.hero__content__information button:hover {
+    background: #FF9ADB;
+}
+
+.hero__content__illustration img {
+    width: 700px;
+    object-fit: contain;
+}
